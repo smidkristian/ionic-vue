@@ -1,0 +1,22 @@
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --ion-toolbar-color: var(--ion-color-primary-contrast);
+}
+
+ion-content {
+    --background: var(--ion-color-dark);
+}
+
+ion-list {
+    --background: var(--ion-color-dark);
+}
+
+.list-md {
+    background: none;
+    padding: 0;
+}
+
+ion-item {
+    --background: var(--ion-color-dark-tint);
+    --color: var(--ion-color-dark-contrast);
+}
