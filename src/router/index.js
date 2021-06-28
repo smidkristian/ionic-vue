@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import Memories from '../pages/Memories.vue'
+import memories from '../pages/memories.vue'
 
 const routes = [
   {
@@ -7,10 +7,13 @@ const routes = [
     redirect: '/memories'
   },{
     path: '/memories',
-    component: Memories
+    component: memories
   },{
     path: '/memories/:id',
-    component: () => import('../pages/MemoryDetail.vue')
+    component: () => import('../pages/memory-detail.vue')
+  },{
+    path: '/memory/add',
+    component: () => import('../pages/memory-add.vue')
   }
 ]
 
